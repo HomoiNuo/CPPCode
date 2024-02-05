@@ -44,13 +44,12 @@ int main(int argc, char *argv[])
 	if (CreateProcess((LPCWSTR)Null, (LPWSTR)Command, 0, 0, 0, 0, 0, 0, &si, &pi))
 	{
 		while (!(FindWindow(L"Main HighGUI class", L"VideoWallPaper.mp4"))) {}
-		// 等待视频播放器启动完成。可用循环获取窗口尺寸来代替Sleep()
 		Sleep(100);
-		HWND hProgman =FindWindow(L"Progman", 0);				// 找到PM窗口
-		SendMessageTimeout(hProgman, 0x52C, 0, 0, 0, 100, 0);	// 给它发特殊消息
-		HWND hFfplay = FindWindow(L"Main HighGUI class", L"VideoWallPaper.mp4");				// 找到视频窗口
-		SetParent(hFfplay, hProgman);							// 将视频窗口设置为PM的子窗口
-		EnumWindows(EnumWindowsProc, 0);						// 找到第二个WorkerW窗口并隐藏它
+		HWND hProgman =FindWindow(L"Progman", 0);
+		SendMessageTimeout(hProgman, 0x52C, 0, 0, 0, 100, 0);
+		HWND hFfplay = FindWindow(L"Main HighGUI class", L"VideoWallPaper.mp4");
+		SetParent(hFfplay, hProgman);
+		EnumWindows(EnumWindowsProc, 0);
 	}
 	
 	CloseHandle(pi.hThread);
