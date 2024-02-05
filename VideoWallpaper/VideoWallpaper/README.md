@@ -6,3 +6,14 @@
 
 讲解视频：https://www.bilibili.com/video/BV1HZ4y1978a
 
+2024.02.06
+
+v1.0.0
+
+程序测试：
+
+1.windows 10/windows 11：
+
+程序能够正常运行，但有概率因选中其他窗口或按下win+Tab键导致视频窗口半透明
+
+2.
