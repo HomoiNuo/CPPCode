@@ -14,7 +14,7 @@ v1.0.0
 
 1.windows 10/windows 11：
 
-![Weixin Screenshot_20240206165006](https://github.com/HomoiNuo/CPPCode/assets/158718078/0c74ecba-6e12-4275-aaea-8bbeb8aa6ddd)
+![Weixin Screenshot_20240206165006](https://github.com/HomoiNuo/CPPCode/assets/158718078/26b46c4a-fcca-4cfa-904c-3640b5ced8da)
 
 上图为Windows 10虚拟机测试
 
