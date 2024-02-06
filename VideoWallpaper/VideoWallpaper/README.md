@@ -14,6 +14,8 @@ v1.0.0
 
 1.windows 10/windows 11：
 
-程序能够正常运行，但有概率因选中其他窗口或按下win+Tab键导致视频窗口半透明
+![Weixin Screenshot_20240206165006](https://github.com/HomoiNuo/CPPCode/assets/158718078/0c74ecba-6e12-4275-aaea-8bbeb8aa6ddd)
+
+程序能够正常运行，但有概率或者按下win+Tab键导致视频窗口半透明
 
 2.
